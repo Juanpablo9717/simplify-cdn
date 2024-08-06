@@ -28,6 +28,10 @@ const Simplify = {
     const randomPart = Math.random().toString(36).substring(2, 5);
     return `${timePart}${randomPart}`;
   },
+  extractNumericValue: (value) => {
+    if (!value) return 0;
+    return parseFloat(value) || 0;
+  },
 
   // Add methods here!
 };
