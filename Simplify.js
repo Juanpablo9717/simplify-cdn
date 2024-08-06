@@ -23,6 +23,11 @@ const Simplify = {
       document.head.appendChild(styleElement);
     }
   },
-  
+  generateUUID: () => {
+    const timePart = Date.now().toString(36).substring(-2);
+    const randomPart = Math.random().toString(36).substring(2, 5);
+    return `${timePart}${randomPart}`;
+  },
+
   // Add methods here!
 };
