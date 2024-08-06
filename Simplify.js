@@ -1,5 +1,5 @@
 const Simplify = {
-  createUniqueStylesById: ({ elementId, cssContent, pluginName }) => {
+  createUniqueStyles: ({ elementId, cssContent, pluginName }) => {
     if (!pluginName || !cssContent || !pluginName) {
       console.warn(
         `IMPORTANT! remember to use all the props to correct functionality ${{
