@@ -9,3 +9,9 @@ To include the helper functions in your project, use the following CDN link:
 ```html
 
 <script src="https://fastly.jsdelivr.net/gh/Juanpablo9717/simplify-cdn/Simplify.js"></script>
+```
+## Usage example
+
+```
+const uuid = Simplify.generateUUID();
+```
