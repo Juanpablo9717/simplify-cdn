@@ -15,3 +15,7 @@ To include the helper functions in your project, use the following CDN link:
 ```
 const uuid = Simplify.generateUUID();
 ```
+
+```
+const extractDataFromListOfThings = Simplify.extractDataFromListOfThings(LIST_HERE);
+```
